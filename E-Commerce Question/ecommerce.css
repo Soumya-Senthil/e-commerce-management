@@ -1,0 +1,94 @@
+.delete-buttons{
+    background-color: red;
+    color:black;
+    border-radius: 5px;
+}
+
+body{
+
+    background-image: url(bgimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+
+
+}
+
+.site-name{
+    text-align: center;
+    
+    color: rgb(238, 18, 77);
+    font-size: 20px;
+    font-weight: bolder;
+    font-family:Georgia, 'Times New Roman', Times, serif;   
+    text-align: center;   
+    animation: glow 1s ease-in-out infinite alternate;    
+    
+
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 15px #ff4da6, 0 0 30px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+
+}
+
+.order-lists{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    
+}
+.type-1-list-div, .type-2-list-div, .type-3-list-div{
+    flex: 1;
+    background-color: rgb(245, 70, 140, 0.5);
+    padding-top: 30px;
+    padding-bottom: 200px;
+    border-right: solid 2px rgb(255, 253, 253);
+    border-left: solid 2px rgb(255, 253, 253);
+    border-top: solid 2px rgb(255, 253, 253);
+    border-bottom: solid 2px rgb(255, 253, 253);
+
+    border-radius: 5px;
+    text-align: center;   
+    text-decoration: underline;
+
+    color: white;
+    font-weight: bolder;
+    font-size: 25x;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+}
+.input-div{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    color: white;
+    font-weight: bolder;
+    font-size: 25x;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.inputs{
+    flex:1;
+}
+.submit-button-div{
+    text-align: center;
+}
+.submit-button{
+    color: black;
+    background-color:rgb(238, 18, 77);
+    border-radius: 5px;
+    padding: 6px;
+}
